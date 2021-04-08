@@ -1,0 +1,53 @@
+/**************************************
+STATIC LAYOUT CSS
+**************************************/
+  
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #2980b9;
+    color: #FFF;
+    font-family: Helvetica;
+    text-align: left;
+    margin: 0;
+  }
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    width: 960px;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  section {
+    float: left;
+  }
+
+  section {
+    width: 750px;
+    border: 1px solid rgba(255,255,255,0.8);
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+
+  .left {
+    padding-left: 10px;
+  }
+  
+  .right {
+    padding-left: 10px;
+    margin-left: 80px;
+  }
+  
+  select {
+    width: auto;
+    height: 200px;
+  }
