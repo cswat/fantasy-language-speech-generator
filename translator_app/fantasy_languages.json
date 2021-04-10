@@ -1,0 +1,48 @@
+{
+  "fantasy_languages": 
+    {
+    "orcish": {
+      "long_name": "Orcish",
+      "influences": ["russian", "swahili"],
+      "more_of": ["g", "k", "r"],
+      "less_of": ["w", "v", "y"],
+      "none_of": []
+    },
+    "elvish": {
+      "long_name": "Elvish",
+      "influences": ["french", "italian"],
+      "more_of": ["v"],
+      "less_of": ["k", "r"],
+      "none_of": []
+    },
+    "dwarvish": {
+      "long_name": "Dwarvish",
+      "influences": ["danish", "german", "swedish"],
+      "more_of": ["b", "r"],
+      "less_of": ["z"],
+      "none_of": []
+    },
+    "halfling": {
+      "long_name": "Halfling",
+      "influences": ["spanish", "danish"],
+      "more_of": ["f", "l"],
+      "less_of": ["k"],
+      "none_of": []
+    },
+    "goblin": {
+      "long_name": "Goblin",
+      "influences": ["spanish", "portuguese"],
+      "more_of": ["z", "k", "t"],
+      "less_of": [],
+      "none_of": ["w"]
+    },
+    "gnomish": {
+      "long_name": "Gnomish",
+      "influences": ["spanish", "swedish", "italian"],
+      "more_of": ["l", "x", "u"],
+      "less_of": [],
+      "none_of": []
+    }
+  }
+}
+

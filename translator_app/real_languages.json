@@ -1,0 +1,191 @@
+{
+    "real_languages":
+    {
+        "english": {
+            "long_name": "English",
+            "short_name": "en",
+            "syllables": ["a","ac","act","ad","af","ag","age","air","al","als","am","an","ap",
+                "ar","as","at","ate","au","ba","bat","be","ber","bers","bet","bi","ble","bles","bod","bor",
+                "bout","but","by","ca","cal","can","cap","car","cat","cate","cen","cent","char","ci","cial",
+                "cir","cit","cle","co","col","com","come","con","cor","coun","cov","cu","cul","cus","cy","da",
+                "dan","day","de","den","der","ders","di","dif","dis","dle","dy","east","ed","ef","el",
+                "en","ence","end","ent","er","ered","ern","ers","es","est","et","ev","eve","ex","fa","fac",
+                "fect","fer","fi","fin","fish","fix","fol","for","fore","form","ful","gan","gen","ger","gi",
+                "gle","go","grand","great","hap","har","head","heav","high","ho","hunt", "ic","ies","il",
+                "im","in","ing","ings","ion","is","ish","it","its","jo","ket","la","land","lands","lar","lat",
+                "lead","lec","lect","lent","less","let","li","light","lin","lo","long","low","lu","ly","ma",
+                "mag","main","mal","man","mar","mat","me","meas","mem","men","ment","ments","mer","mi","mil",
+                "min","mis","mo","mon","moth","mu","mul","my","n’t","na","nal","near","nel","ner","ness",
+                "net","nev","new","ni","ning","nit","no","nore","nu","num","ny","o","ob","oc","of","on","one",
+                "op","or","oth","ous","out","pa","par","prac","parc","pe","pen","peo","per","pi","pic","play",
+                "ple","ples","ply","po","point","por","port","pos","pre","pres","press","pro","ra","ral","re",
+                "read","rec","rect","rep","ri","ried","ro","round","row","ry","sa","sand","sat","sent",
+                "se","sec","self","sen","ser","set","ship","si","side","sim","sion","sions","sis","so","some",
+                "son","sons","south","stand","stud","su","sub","sug","sun","sup","sur","ta","tain","tal",
+                "te","ted","tel","tem","ten","tence","tend","ter","ters","the","ther","ti","tic","ties","tin",
+                "ting","tion","tions","tive","tle","to","tom","ton","tor","tors","tra","tract","tray","tri",
+                "tro","try","tu","ture","tures","tween","ty","u","uer","um","un","up","ure","us","va","val",
+                "var","vel","ven","ver","vi","vid","vis","wa","ward","way","west","where","wil","win","won",
+                "work","writ","y"
+            ]
+        },
+        "italian": {
+            "long_name": "Italian",
+            "short_name": "it",
+            "syllables": ["al", "an", "ar", "at", "ca", "ch", "co", "de", "di", "el", "en", "er", "es", "he", "ia", "il", "in", "io", "la",
+                 "le", "li", "ll", "ma", "me", "na", "ne", "no", "nt", "ol", "on", "or", "pe", "ra", "re", "ri", "ro", "se", "si", "so", "st",
+                "ta", "te", "ti", "to", "tr", "tt", "un", "to", "re", "er", "on", "co", "di", "ta", "en", "in", "te", "at", "ra", "an", "no",
+                   "nt", "st", "la", "ar", "al", "or", "ch", "ri", "ti", "io", "le", "de", "es", "ne", "me", "tt", "el", "pe", "il", "un", "ia", 
+                   "li", "se", "so", "ll", "si", "ol", "ro", "ma", "ca", "na", "tr", "he", "ale", "all", "anc", "and", "ant", "are", "ato", "att",
+                    "che", "chi", "com", "con", "del", "ell", "ent", "era", "ere", "ess", "est", "ett", "gli", "ion", "lla", "men", "non", "nte",
+                     "nti", "nto", "olo", "one", "ono", "per", "que", "son", "sta", "sto", "tat", "tra", "tto", "una", "ver", "zio", "ent", "che",
+                      "ato", "per", "nte", "con", "ell", "sta", "are", "men", "ion", "del", "lla", "tto", "tat", "ess", "ere", "ett", "est", "one",
+                       "ono", "zio", "non", "era", "chi", "gli", "com", "tra", "sto", "nti", "son", "ver", "att", "una", "que", "nto", "and", "all",
+                        "olo", "anc", "ant", "ale"
+            ]
+        },
+        "french": {
+            "long_name": "French",
+            "short_name": "fr",
+            "syllables": ["bain","tain","bail","a","age","aille","aine","ais","ard","at","ate","aud","bourg","ci","dingue","eau","el","elle","er","erai","eraie",
+                "eraient","erais","eresse","erez","erie","erons","eront","esque","esse","et","ette","eur","ez","gate","gone","gène","ible","ienne","if","in","ique","isme",
+                "ite","là","ment","mont","muche","mètre","o","oche","oient","oir","oire","ois","oise","ol","ome","on","ons","otte","ouse","ouze","pathe","ptile","quin","tion",
+                "té","u","ueux","ure","ville","vore","âtre","ème","ée", "a", "able","ace","ache","acre","Acre","acres","acte","Actes","age","ah","ai","aide","aides",
+                "aie","aie","aient","aies","aigle","aigre","ail","ail","aile","ailes","aille","aillent","ailles","ails","aime","aiment","aimes","Ain","ain","aine","air","aire",
+                "aire","ais","aise","Aisne","ait","al","ale","algue","alle","Alpes","ambre","Ambre","ambrent","âme","âmes","ample","an","anche","ancre","Andes","ange","Ange",
+                "angle","Anne","ans","anse","ansent","anses","ante","antre","Aoste","août","aoûts","aphte","apte","aptes","arbre","arbres","arc","arche","ardre","arf","Arles",
+                "arme","armes","arrhes","art","arts","as","aspe","asple","asthme","astre","astres","au","Aube","aube","aubes","Auch","Aude","auge","aulne","aulx","aune","aunent",
+                "autre","autres","aux","axe","Axe","aître","aïe","b'jour","bac","back","bade","badge","badgent","badges","baffe","baffle","bagne","bague","baguent","bagues","bah",
+                "bai","baie","baille","baise","baisent","baises","baisse","bal","bale","balle","balme","balte","ban","banc","banche","bande","bang","banque","bar","barbe","bard",
+                "barde","barge","barje","barque","barre","bars","bas","base","basque","basques","basse","bat","bath","bats","batte","battent","battre","bau","baud","bauge","baume",
+                "bave","baye","beach","beagle","beau","beau-","beauf","Beaune","beaux","bec","beige","beigne","bel","belge","Belge","belle","belle-","belles","ben","berge","berk",
+                "berle","bof","bogue","boire","bois","boite","boive","bol","bombe","bombent","bombes","bon","bond","bonde","bonne","bonnes","bons","bonze","boob","boom","bord",
+                "bore","borgne","borne","boss","bosse","bosses","botte","bottent","bou","bouc","bouche","boucle","boue","bouette","boueuse","boueuses","boueux","bouffe","bouge",
+                "bougre","bouh","bouif","caye","carpe","carde","capte","cape","cep","chev","chel","cille","cern","cirne","clef","chat","coiffe","colle","coq","cric","cul","dam",
+                "dard","das","dol","dru","dieu","drac","eaux","eaux","effe","encre","enne","entre","fac","faune","fifre","fis","frase","gramme","gueux","grès","grève","gré","guère"
+            ]
+        },
+        "german": {
+            "long_name": "German",
+            "short_name": "de",
+            "syllables": ["an", "au", "be", "ch", "da", "de", "di", "ei", "el", "en", "er", "es", "ge", "he", "ht", "ic", "ie", "in", "it", "le", "li", "nd", "ne", "ng", "re",
+                 "sc", "se", "si", "st", "te", "un", "en", "er", "ch", "de", "ei", "ie", "in", "te", "ge", "un", "nd", "ic", "es", "be", "he", "st", "ne", "an", "re", "se", "di", 
+                 "sc", "au", "ng", "si", "le", "da", "it", "ht", "el", "li", "abe", "ach", "and", "auf", "aus", "ben", "ber", "che", "cht", "das", "den", "der", "die", "ein", "eit",
+                  "end", "ere", "ers", "ese", "gen", "hen", "ich", "ige", "ine", "ist", "lic", "lle", "men", "mit", "nde", "nen", "nge", "nic", "nte", "ren", "sch", "sei", "sen",
+                   "sic", "sie", "ste", "ten", "ter", "und", "ung", "ver", "ich", "ein", "der", "sch", "die", "und", "che", "cht", "den", "gen", "ine", "ten", "ung", "hen", "nde",
+                    "lic", "ver", "sie", "ste", "nen", "eit", "ber", "ter", "nge", "das", "ach", "and", "ers", "ren", "ere", "nic", "ist", "sic", "ben", "auf", "lle", "abe", "end",
+                     "mit", "men", "sei", "sen", "ige", "aus", "nte", "ese"
+            ]
+        },
+        "russian": {
+            "long_name": "Russian",
+            "short_name": "ru",
+            "syllables": ["prah","vahd","nik","choo","doh","dob","ryy","spok","noy","koy","zdrav","kak","dela","hor","osh","spas","men","ya","vut","zo","dli","rahd","poz","nak",
+                "mit","sya","uyst","za","chto","iz","bez","vy","gov","yest","ty","pon","ne","nu","vash","my","ya","reb","kom","yon","otk","lad","vay","sya","et","kog","da","yet",
+                "moch","dke","nyy","lya","tov","tua","naya","vka","eka","ety","omu","chut","mer"
+            ]
+        },
+        "spanish": {
+            "long_name": "Spanish",
+            "short_name": "es",
+            "syllables": ["ad", "al", "an", "ar", "as", "ci", "co", "de", "do", "el", "en", "er", "es", "ie", "in", "la", "lo", "me", "na", "no", "nt", "on", "or", "os",
+                 "pa", "qu", "ra", "re", "ro", "se", "st", "ta", "te", "to", "ue", "un", "en", "de", "er", "es", "ue", "la", "ra", "os", "nt", "te", "ar", "qu", "el", "ta",
+                  "do", "co", "re", "as", "on", "an", "to", "lo", "st", "un", "or", "ad", "ie", "se", "ci", "al", "pa", "na", "ro", "no", "me", "in", "aci", "ada", "ado",
+                   "ant", "ara", "ció", "com", "con", "des", "dos", "ent", "era", "ero", "est", "ido", "ien", "ier", "ión", "las", "los", "men", "nte", "nto", "par", "per",
+                    "por", "que", "res", "sta", "ste", "ten", "tra", "una", "ver", "que", "ent", "nte", "con", "est", "ado", "par", "los", "era", "ien", "men", "per", "sta",
+                     "ara", "por", "una", "ión", "ant", "tra", "ero", "nto", "ció", "aci", "las", "com", "ste", "res", "ier", "ten", "dos", "des", "ver", "ido", "ada"
+            ]
+        },
+        "dutch": {
+            "long_name": "Dutch",
+            "short_name": "nl",
+            "syllables": ["aa","al","an","ar","at","be","ch","da","de","ee","el","en","er","et","ge","he","ie","ij","in","ke","le","me","nd","ng","oe","on","oo","or","re",
+                "st","te","va","ve","wa","ze","aan","aar","ach","als","and","cht","dat","den","der","ede","een","eer","elĳ","end","erd","ere","ers","gen","haa","het","iet",
+                "ing","ken","lle","lĳk","maa","men","met","nde","nen","nge","nie","ond","oor","rde","ren","sch","ste","ten","ter","uit","van","ver","voo","was","zĳn"
+            ]
+        },
+        "finnish": {
+            "long_name": "Finnish",
+            "short_name": "fi",
+            "syllables": ["ak","al","am","an","ar","bi","da","de","di","ek","el","en","er","il","in","in","ir","ka","la","le","li","ma","nd","ol","on","ra","ve","ya",
+                "ada","ama","ara","ard","ari","asi","bil","bir","çin","edi","eni","ere","eri","içi","ile","ili","ind","lan","lar","ldu","ler","mak","man","nda","nde",
+                "nla","ola","old","onu","rin","var","ver","yor","itt","ksi","lis","llä","lla","lle","lli","min","nen","ole","oli","sen","sin","ssa","sta","sti","taa",
+                "tää","ten","tta","ttä","utt","vat","voi"
+            ]
+        },
+        "greek": {
+            "long_name": "Greek",
+            "short_name": "el",
+            "syllables": [
+
+            ]
+        },
+        "hebrew": {
+            "long_name": "Hebrew",
+            "short_name": "he",
+            "syllables": ["awh", "et", "ot", "bi", "di", "hoo", "hee", "veh", "val", "vere", "oot", "ya", "yo", "yi", "yam", "jat", "lo", "lah", "lu", "li", "mo", "na", "all",
+                "ro","re", "shel", "aval", "achar", "ani", "atta", "ta", "haya", "hayu", "vera", "vater", "yon", "yoni", "yim", "yakh", "kula", "chim", "kmo", "rim", "shelah", "shelo"
+            ]
+        },
+        "turkish": {
+            "long_name": "Turkish",
+            "short_name": "tr",
+            "syllables": ["ak","al","am","an","ar","bi","da","de","di","ek","el","en","er","il","in","in","ir","ka","la","le","li","ma","nd","ol","on","ra","ve",
+                "ya","ada","ama","ara","ard","ari","asi","bil","bir","çin","edi","eni","ere","eri","içi","ile","ili","ind","lan","lar","ldu","ler","mak","man","nda",
+                "nde","nla","ola","old","onu","rin","var","ver","yor"
+            ]
+        },
+        "swedish": {
+            "long_name": "Swedish",
+            "short_name": "sv",
+            "syllables": ["ad","an","ar","är","at","ch","de","en","er","et","fö","ge","ha","ig","in","ka","la","li","ll","me","na","nd","ng","oc","om","or","ör","ra","re",
+                "sk","st","ta","te","ti","tt","va","ade","all","and","ans","ara","att","den","der","det","era","ett","för","gen","han","ill","ing","int","jag","kan","lig",
+                "lla","lle","med","men","nde","nge","nin","nne","nte","och","sam","som","sta","ste","ter","til","tta","var","ver"
+            ]
+        },
+        "polish": {
+            "long_name": "Polish",
+            "short_name": "nl",
+            "syllables": ["ak","al","am","an","ar","bi","da","de","di","ek","el","en","er","il","in","in","ir","ka","la","le","li","ma","nd","ol","on","ra","ve","ya",
+                "ada","ama","ara","ard","ari","asi","bil","bir","çin","edi","eni","ere","eri","içi","ile","ili","ind","lan","lar","ldu","ler","mak","man","nda","nde",
+                "nla","ola","old","onu","rin","var","ver","yor","ych","zie"
+            ]
+        },
+        "portuguese": {
+            "long_name": "Portuguese",
+            "short_name": "pl",
+            "syllables": ["ak","al","am","an","ar","bi","da","de","di","ek","el","en","er","il","in","in","ir","ka","la","le","li","ma","nd","ol","on","ra","ve","ya","ada",
+                "ama","ara","ard","ari","asi","bil","bir","çin","edi","eni","ere","eri","içi","ile","ili","ind","lan","lar","ldu","ler","mak","man","nda","nde","nla","ola",
+                "old","onu","rin","var","ver","yor","não","ndo","nha","nte","nto","ocê","par","per","por","qua","que","res","ria","seu","sta","tos","uma","ver","voc"
+            ]
+        },
+        "danish": {
+            "long_name": "Danish",
+            "short_name": "da",
+            "syllables": ["ak","al","am","an","ar","bi","da","de","di","ek","el","en","er","il","in","in","ir","ka","la","le","li","ma","nd","ol","on","ra",
+                "ve","ya","ada","ama","ara","ard","ari","asi","bil","bir","çin","edi","eni","ere","eri","içi","ile","ili","ind","lan","lar","ldu","ler","mak",
+                "man","nda","nde","nla","ola","old","onu","rin","var","ver","yor","mme","nde","nge","nne","ord","ret","ske","som","ste","ter","til","tte","var",
+                "vde","ver","vil","vis","vær","ære"
+            ]
+        },
+        "swahili": {
+            "long_name": "Swahili",
+            "short_name": "sw",
+            "syllables": ["ak","al","am","an","ar","at","ba","ch","en","ha","hi","ia","ik","il","im","in","ka","ki","ku","kw","la","li","ma","mb","mi","na","ng","ni",
+                "ra","si","ta","ti","uw","wa","we","ya","ye","aka","ake","aki","ali","ama","amb","ana","ang","ani","ara","ari","ata","ati","eye","eza","ika","iki","iku",
+                "ili","ing","ini","ish","ita","kam","kat","kut","kuw","kwa","lik","mba","ngu","sha","tik","uli","uwa","wak","wal","wam","wan","yak","yey"
+            ]
+        },
+        "icelandic": {
+            "long_name": "Icelandic",
+            "short_name": "is",
+            "syllables": ["al", "an", "ar", "að", "eg", "ei", "en", "er", "ha", "he", "il", "in", "ir", "ið", "ki", "le", "na", "nd", "ng", "nn", "og", "ra", "ri", "se", "st",
+                 "ta", "ti", "um", "ur", "va", "ve", "ði", "að", "er", "ar", "in", "an", "ur", "nn", "ei", "st", "og", "ti", "ra", "ve", "ir", "en", "ha", "nd", "il", "ri", "le",
+                  "ta", "um", "ið", "he", "va", "eg", "na", "ng", "al", "ki", "ði", "se", "all", "and", "ann", "ega", "ein", "eir", "ekk", "enn", "era", "fyr", "gur", "haf", "han",
+                   "ing", "inn", "ins", "kki", "leg", "með", "ndi", "nna", "nni", "num", "rir", "sem", "sta", "til", "tur", "var", "ver", "við", "ður", "það", "þei", "við",
+                    "ður", "það", "þei", "ver", "han", "var", "ann", "inn", "ein", "ekk", "til", "það", "leg", "ndi", "kki", "and", "era", "ing", "sem", "ður", "ins", "ega",
+                     "tur", "með", "eir", "all", "gur", "fyr", "þei", "sta", "enn", "við", "haf", "nna", "num", "rir", "nni"
+            ]
+        }
+    }
+}  
