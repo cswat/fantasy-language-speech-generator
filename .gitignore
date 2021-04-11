@@ -60,6 +60,20 @@ coverage.xml
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+*.egg-info
+*.pot
+*.py[co]
+.tox/
+__pycache__
+MANIFEST
+dist/
+docs/_build/
+docs/locale/
+node_modules/
+tests/coverage_html/
+tests/.coverage
+build/
+tests/report/
 
 # Flask stuff:
 instance/
@@ -128,18 +142,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-#Django
-*.egg-info
-*.pot
-*.py[co]
-.tox/
-__pycache__
-MANIFEST
-dist/
-docs/_build/
-docs/locale/
-node_modules/
-tests/coverage_html/
-tests/.coverage
-build/
-tests/report/
+#crypto/keys/secrets
+/secret
+
+#misc
+/project_summary.xlsx
