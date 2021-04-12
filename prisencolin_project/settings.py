@@ -21,12 +21,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-with open(os.path.join(BASE_DIR, r'secret\secret_key.txt')) as salt:
+with open(os.path.join(BASE_DIR, r'secret/secret_key.txt')) as salt:
     SECRET_KEY = salt.read().strip()
-    print(SECRET_KEY)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+
+SECURE_SSL_REDIRECT = False
 
 ALLOWED_HOSTS = ['127.0.0.1', '3.91.54.197', 'prisencol.in', 'www.prisencol.in']
 
@@ -121,4 +122,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
