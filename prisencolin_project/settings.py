@@ -15,6 +15,8 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 
 
 # Quick-start development settings - unsuitable for production
@@ -25,11 +27,11 @@ with open(os.path.join(BASE_DIR, r'secret/secret_key.txt')) as salt:
     SECRET_KEY = salt.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-SECURE_SSL_REDIRECT = False
+SECURE_SSL_REDIRECT = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '3.91.54.197', 'prisencol.in', 'www.prisencol.in']
+ALLOWED_HOSTS = ['127.0.0.1', '3.83.124.215', 'prisencol.in', 'www.prisencol.in']
 
 
 # Application definition
@@ -122,5 +124,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
