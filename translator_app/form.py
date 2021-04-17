@@ -18,6 +18,7 @@ class TranslateForm(forms.Form):
         fantasy_language_option = (language, fantasy_languages[language]["long_name"])
         fantasy_language_options_list.append(fantasy_language_option)
     
+    print(fantasy_language_options_list)
     #do the same for real languages
     f = open('translator_app/real_languages.json')
     real_languages = json.load(f)

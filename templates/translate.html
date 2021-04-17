@@ -19,14 +19,14 @@
   </head>
   <body>
     <section class="left">
-      <label>Templates:</label>
-      </br>
-      {{ form.fantasy_language_select }}
-      </br>
-      </br>
       <div class='translation_form'>
         <form method="post">
             {% csrf_token %}
+            <label>Templates:</label>
+            </br>
+            {{ form.fantasy_language_select }}
+            </br>
+            </br>
             <label>Influences:</label>
             </br>
             {{ form.real_language_influences }}

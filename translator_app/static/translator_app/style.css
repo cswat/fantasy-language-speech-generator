@@ -48,7 +48,7 @@ STATIC LAYOUT CSS
     padding-right: 10px;
   }
   
-  .translation_form select {
+  #id_real_language_influences {
     width: auto;
     height: 200px;
   }
