@@ -19,6 +19,11 @@
   </head>
   <body>
     <section class="left">
+      <label>Templates:</label>
+      </br>
+      {{ form.fantasy_language_select }}
+      </br>
+      </br>
       <div class='translation_form'>
         <form method="post">
             {% csrf_token %}
@@ -74,4 +79,5 @@
     </section>
     </body>
     <!--Shout out to the Circle of Friends: Circe, Dee, Pablo, & Remy!-->
+  <script src="{% static 'translator_app/scripts.js' %}"></script>
 </html> 

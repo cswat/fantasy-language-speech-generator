@@ -43,6 +43,7 @@ def translation_form(request):
             logging.info("User accessed translator.")
             output = TranslationOutput(initial={'translation_output' : translation})
             return render(request, 'translate.html', {'form': form, 'output': output})
+        #TODO - if user submits POST request but form is not valid, how should output be set?
 
     # if a GET (or any other method) create blank form
     else:

@@ -16,7 +16,6 @@ A list of items I would like to incorporate. Have more? Shoot me a message!
 * Use regex to validate text parameters
 * Support for proper nouns
 * Add recently translated text into DOM for quick reference
-* Create fantasy languages that auto-populate the existing parameters
 * Save session info when user closes the window
 * Mobile support CSS
 

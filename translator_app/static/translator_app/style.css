@@ -43,11 +43,12 @@ STATIC LAYOUT CSS
   }
   
   .right {
-    padding-left: 10px;
     margin-left: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
-  select {
+  .translation_form select {
     width: auto;
     height: 200px;
   }
