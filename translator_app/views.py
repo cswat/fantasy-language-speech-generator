@@ -25,7 +25,6 @@ def translation_form(request):
         if form.is_valid():
             #process the data in form.cleaned_data as required
             submission = form.cleaned_data
-            print(submission)
             logging.debug(submission)
 
             #put important data into variables

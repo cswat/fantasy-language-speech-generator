@@ -43,13 +43,16 @@ class Translation:
         translated_list = []
 
         #splits text_in into distinct words but maintains punctuation and non-letter characters
-        words = re.split(r'(\W+)(\w+)', text_in)
+        words = re.split(r'(@?\w+)(\s+|\W+)', text_in)
+        print(words)
         
         #break down words into syllables using syllabize
         for word in words:
-            
+            #check if word is proper noun, indicated by surrounding address (@) symbols. If so, preserve it and remove symbol.
+            if re.match(r'@\w+', word):
+                translated_word = word.strip('@')
             #check if word is, indeed, a word. If it is, break it down into syllables
-            if re.match(r'\w+', word):
+            elif re.match(r'\w+', word):
                 syllables = self.syllabize(word)
                 #translates or replaces each syllable with a syllable from real_languages.json, randomly chosen based on user's language selections, and combines them into translated_word
                 translated_word = ''

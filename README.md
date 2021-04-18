@@ -14,13 +14,13 @@ A list of items I would like to incorporate. Have more? Shoot me a message!
 * Additional language support
 * Bulkier dictionaries
 * Use regex to validate text parameters
-* Support for proper nouns
 * Add recently translated text into DOM for quick reference
 * Save session info when user closes the window
 * Mobile support CSS
 
 # credits
 Thanks to:
+* [RavinderSingh13](https://stackoverflow.com/users/5866580/ravindersingh13) for regex support
 * Terry for Greek translations
 * Thursby for Hebrew translations
 * The StackOverflow community for everything else
