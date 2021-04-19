@@ -50,19 +50,21 @@
             "syllables": ["bain","tain","bail","a","age","aille","aine","ais","ard","at","ate","aud","bourg","ci","dingue","eau","el","elle","er","erai","eraie",
                 "eraient","erais","eresse","erez","erie","erons","eront","esque","esse","et","ette","eur","ez","gate","gone","gène","ible","ienne","if","in","ique","isme",
                 "ite","là","ment","mont","muche","mètre","o","oche","oient","oir","oire","ois","oise","ol","ome","on","ons","otte","ouse","ouze","pathe","ptile","quin","tion",
-                "té","u","ueux","ure","ville","vore","âtre","ème","ée", "a", "able","ace","ache","acre","Acre","acres","acte","Actes","age","ah","ai","aide","aides",
-                "aie","aie","aient","aies","aigle","aigre","ail","ail","aile","ailes","aille","aillent","ailles","ails","aime","aiment","aimes","Ain","ain","aine","air","aire",
-                "aire","ais","aise","Aisne","ait","al","ale","algue","alle","Alpes","ambre","Ambre","ambrent","âme","âmes","ample","an","anche","ancre","Andes","ange","Ange",
-                "angle","Anne","ans","anse","ansent","anses","ante","antre","Aoste","août","aoûts","aphte","apte","aptes","arbre","arbres","arc","arche","ardre","arf","Arles",
-                "arme","armes","arrhes","art","arts","as","aspe","asple","asthme","astre","astres","au","Aube","aube","aubes","Auch","Aude","auge","aulne","aulx","aune","aunent",
-                "autre","autres","aux","axe","Axe","aître","aïe","b'jour","bac","back","bade","badge","badgent","badges","baffe","baffle","bagne","bague","baguent","bagues","bah",
+                "té","u","ueux","ure","ville","vore","âtre","ème","ée", "a", "able","ace","ache","acre","acres","acte","Actes","age","ah","ai","aide","aides",
+                "aie","aie","aient","aies","aigle","aigre","ail","ail","aile","ailes","aille","aillent","ailles","ails","aime","aiment","aimes","ain","aine","air","aire",
+                "aire","ais","aise","Aisne","ait","al","ale","algue","alle","ambre","ambrent","âme","âmes","ample","an","anche","ancre","ange",
+                "angle","ans","anse","ansent","anses","ante","antre","août","aoûts","aphte","apte","aptes","arbre","arbres","arc","arche","ardre","arf","Arles",
+                "arme","armes","arrhes","art","arts","as","aspe","asple","asthme","astre","astres","au","aube","aubes","auge","aulne","aulx","aune","aunent",
+                "autre","autres","aux","axe","aître","aïe","b'jour","bac","back","bade","badge","badgent","badges","baffe","bagne","bague","baguent","bagues","bah",
                 "bai","baie","baille","baise","baisent","baises","baisse","bal","bale","balle","balme","balte","ban","banc","banche","bande","bang","banque","bar","barbe","bard",
                 "barde","barge","barje","barque","barre","bars","bas","base","basque","basques","basse","bat","bath","bats","batte","battent","battre","bau","baud","bauge","baume",
-                "bave","baye","beach","beagle","beau","beau-","beauf","Beaune","beaux","bec","beige","beigne","bel","belge","Belge","belle","belle-","belles","ben","berge","berk",
+                "bave","baye","beach","beagle","beau","beau-","beauf","beaux","bec","beige","beigne","bel","belge","Belge","belle","belle-","belles","ben","berge","berk",
                 "berle","bof","bogue","boire","bois","boite","boive","bol","bombe","bombent","bombes","bon","bond","bonde","bonne","bonnes","bons","bonze","boob","boom","bord",
                 "bore","borgne","borne","boss","bosse","bosses","botte","bottent","bou","bouc","bouche","boucle","boue","bouette","boueuse","boueuses","boueux","bouffe","bouge",
                 "bougre","bouh","bouif","caye","carpe","carde","capte","cape","cep","chev","chel","cille","cern","cirne","clef","chat","coiffe","colle","coq","cric","cul","dam",
-                "dard","das","dol","dru","dieu","drac","eaux","eaux","effe","encre","enne","entre","fac","faune","fifre","fis","frase","gramme","gueux","grès","grève","gré","guère"
+                "dard","das","dol","dru","dieu","drac","eaux","eaux","effe","encre","enne","entre","fac","faune","fifre","fis","frase","gramme","gueux","grès","grève","gré","guère", "fai",
+                "ien", "ion", "ire", "les", "lle", "lus", "mai", "men", "mme", "nte", "omm", "ont", "our", "ous", "out", "ouv", "par", "pas", "plu", "pou", "que", "res", "son", "tai", "tio",
+                "tre", "tou", "une", "ure", "ver", "vou"
             ]
         },
         "german": {
@@ -116,8 +118,8 @@
         "greek": {
             "long_name": "Greek",
             "short_name": "el",
-            "syllables": [
-
+            "syllables": ["ai", "an", "ap", "apo", "as", "aut", "gia", "gyea", "den", "ei", "ein", "ek", "ekh", "hena", "es", "heta", "ia", "ik", "hina", "ka", "kai", "ma", "me", "men",
+                "na", "nai", "nudah", "nta", "ou", "ous", "po", "pou", "pro", "ra", "ro", "se", "see", "sai", "ste", "sto", "ta", "tai", "te", "tan", "ten", "tes", "ti", "tik", "to", "tou" 
             ]
         },
         "hebrew": {
