@@ -43,9 +43,8 @@ class Translation:
         translated_list = []
 
         #splits text_in into distinct words but maintains punctuation and non-letter characters
-        words = re.split(r'(@?\w+)(\s+|\W+)', text_in)
+        words = re.split(r'(@?\w+)(\s+|\W)', text_in)
         print(words)
-        
         #break down words into syllables using syllabize
         for word in words:
             #check if word is proper noun, indicated by surrounding address (@) symbols. If so, preserve it and remove symbol.

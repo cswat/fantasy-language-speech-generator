@@ -4,6 +4,7 @@ let real_language_select = document.getElementById('id_real_language_influences'
 let more_of_charfield = document.getElementById('id_more_of');
 let less_of_charfield = document.getElementById('id_less_of');
 let none_of_charfield = document.getElementById('id_none_of');
+let save_translation_button = document.getElementById('id_save_translation_button');
 
 //populate fields based on predefined templates - for some reason onChange doesn't work so it's a whole event listener
 fantasy_language_select.addEventListener("change", function() {
@@ -74,3 +75,21 @@ fantasy_language_select.addEventListener("change", function() {
     none_of_charfield.value = String(fantasy_language_data[fantasy_language].none_of).replace(/,/g,"")
 })
 
+//store translation in DOM when user clicks "Save translation"
+//TODO retain saved translations after a submission event or page refresh (AJAX?)
+save_translation_button.addEventListener("click", function saveTranslation () {
+    //take in translation input/output fields as elements
+    let translation_input_charfield = document.getElementById('id_enter_text')
+    let translation_output_charfield = document.getElementById('id_translation_output');
+    //check that translation field has text. If so, store in div. If not, return alert.
+    if (translation_output_charfield.textContent == "") {
+        alert("No translation is present!")
+    } else {
+        const saved_translations_div = document.createElement("div")
+        const saved_translation = document.createTextNode(
+            fantasy_language_select.value.toUpperCase()+': "'+translation_input_charfield.textContent+'" BECOMES "'+translation_output_charfield.textContent+'"')
+        saved_translations_div.appendChild(saved_translation)
+        const ouput_box_div = document.getElementById("id_output_box")
+        ouput_box_div.parentNode.insertBefore(saved_translations_div, ouput_box_div.nextSibling)
+    }
+})
